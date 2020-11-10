@@ -9,6 +9,9 @@
     "files.watcherExclude": {
         "**/build/**": true
     },
+    "files.associations": {
+        ".czrc": "json"
+    },
     "cSpell.userWords": [], // only use words from .cspell.json
     "cSpell.enabled": true,
     "editor.formatOnSave": true,
