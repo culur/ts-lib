@@ -1,0 +1,8 @@
+.env
+.idea/*
+.nyc_output
+*.log
+build
+coverage
+node_modules
+test
