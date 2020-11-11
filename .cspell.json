@@ -8,6 +8,7 @@
         // alphabetical order
         "asynciterable",
         "czrc",
+        "dependabot",
         "releaserc",
         "tsbuildinfo"
     ],
