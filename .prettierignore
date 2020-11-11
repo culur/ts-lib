@@ -10,6 +10,7 @@
 /.eslintignore
 /.gitattributes
 /.gitignore
+/.markdownlintignore
 /.prettierignore
 /.yarnclean
 /LICENSE
