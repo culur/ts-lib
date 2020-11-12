@@ -10,7 +10,8 @@
         "**/build/**": true
     },
     "files.associations": {
-        ".czrc": "json"
+        ".czrc": "json",
+        ".releaserc": "json"
     },
     "cSpell.userWords": [], // only use words from .cspell.json
     "cSpell.enabled": true,
