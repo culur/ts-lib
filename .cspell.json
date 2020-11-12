@@ -6,7 +6,9 @@
     "import": ["node_modules/cspell-dict-vi-vn/cspell-ext.json"],
     "words": [
         // alphabetical order
-        "czrc"
+        "asynciterable",
+        "czrc",
+        "tsbuildinfo"
     ],
     "ignorePaths": [
         "node_modules/**",
@@ -15,6 +17,7 @@
         "yarn.lock",
 
         "build/**/*.{js,css}",
-        "**/*.log"
+        "**/*.log",
+        "**/*.tsbuildinfo"
     ]
 }
