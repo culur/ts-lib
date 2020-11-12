@@ -16,6 +16,7 @@ module.exports = {
                 // alphabetical order
                 '.babelrc',
                 '.czrc',
+                '.releaserc',
                 '*.code-workspace',
             ],
             options: { parser: 'json' },
