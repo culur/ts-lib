@@ -1,0 +1,14 @@
+{
+  "name": "@culur/ts-lib",
+  "version": "0.0.1",
+  "description": "Typescript Starter",
+  "repository": "https://github.com/culur/ts-lib",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
