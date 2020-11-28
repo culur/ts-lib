@@ -1592,10 +1592,10 @@ cspell-dict-typescript@^1.0.12:
   dependencies:
     configstore "^5.0.1"
 
-cspell-dict-vi-vn@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.0.17.tgz#141bb359809b3cfaae5bdd4c81b045e6eca75c85"
-  integrity sha512-WYDMB6Vlju9m9VFvRmcpw6LuTMZstfPi2rBhX05qwCdBpX9GrbYqBtjbrai6d6KI4PdcWRgcCZHFEvzG0xnhoA==
+cspell-dict-vi-vn@^1.0.20:
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.0.20.tgz#cd5072b00c21e8a2b041b506a0fdd9d62793ca53"
+  integrity sha512-35+FjDD6bi2psEEL4L7U27BBQfahdFBrVef5L7/wd7a/Ju3/dCoTblhtGg82Po/BjnigQbQRwOSugzkOogQAZg==
   dependencies:
     configstore "^5.0.1"
 
