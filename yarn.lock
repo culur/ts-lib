@@ -56,6 +56,11 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
+"@cspell/dict-vi-vn@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-vi-vn/-/dict-vi-vn-1.0.20.tgz#8c0c6fd4ea94c7a794e2a2cce40042e04261b0b3"
+  integrity sha512-+WGWQsbY7iMGkY9eEADj8Ptsp2aXdvFs+2ZDQ7sPOnSomJH5+eE7imSS+mtVf2bmaiDmhD6He44Oy4ebn8tgNg==
+
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.2.1.tgz#f72069c330461a06684d119384435e12a5d76e3c"
@@ -1592,11 +1597,12 @@ cspell-dict-typescript@^1.0.12:
   dependencies:
     configstore "^5.0.1"
 
-cspell-dict-vi-vn@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.0.17.tgz#141bb359809b3cfaae5bdd4c81b045e6eca75c85"
-  integrity sha512-WYDMB6Vlju9m9VFvRmcpw6LuTMZstfPi2rBhX05qwCdBpX9GrbYqBtjbrai6d6KI4PdcWRgcCZHFEvzG0xnhoA==
+cspell-dict-vi-vn@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.1.0.tgz#492dfceb3245976406cfbc7171d2830ff1a790ca"
+  integrity sha512-PePH0CdNS6mcc2BtxuQZX2aU3OC/18jiKZJpYI5D7b84iI9eBbBDIeoS9tGrbbKSAhz0KLtG6OhH1D5VxrY2vw==
   dependencies:
+    "@cspell/dict-vi-vn" "^1.0.20"
     configstore "^5.0.1"
 
 cspell-glob@^0.1.21:
