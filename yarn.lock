@@ -260,6 +260,11 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-typescript/-/dict-typescript-1.0.16.tgz#18d20a91c4caf52540c795921a50b0e4ce3bc50c"
   integrity sha512-DEKi6vD605ebDhCC4Hrtz29k59TcijPVsmVKheTpMrL1MD/S96Ftb19gW0pEIVK9vwYZIljmGwgz4qYyuM5Liw==
 
+"@cspell/dict-vi-vn@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-vi-vn/-/dict-vi-vn-1.0.20.tgz#8c0c6fd4ea94c7a794e2a2cce40042e04261b0b3"
+  integrity sha512-+WGWQsbY7iMGkY9eEADj8Ptsp2aXdvFs+2ZDQ7sPOnSomJH5+eE7imSS+mtVf2bmaiDmhD6He44Oy4ebn8tgNg==
+
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.2.1.tgz#f72069c330461a06684d119384435e12a5d76e3c"
@@ -1565,11 +1570,12 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-cspell-dict-vi-vn@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.0.17.tgz#141bb359809b3cfaae5bdd4c81b045e6eca75c85"
-  integrity sha512-WYDMB6Vlju9m9VFvRmcpw6LuTMZstfPi2rBhX05qwCdBpX9GrbYqBtjbrai6d6KI4PdcWRgcCZHFEvzG0xnhoA==
+cspell-dict-vi-vn@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/cspell-dict-vi-vn/-/cspell-dict-vi-vn-1.1.1.tgz#0ce3da37cc417712e7de0f0e769202e18827b84c"
+  integrity sha512-jv6cJ9WOc3PpSBuQSy2RqMB9klmKzXoVMbIGAITr8rhy2DBKhNIz5zHIobM6EJinSHDGAVWk0RTU1j9VbCNiQQ==
   dependencies:
+    "@cspell/dict-vi-vn" "^1.0.20"
     configstore "^5.0.1"
 
 cspell-glob@^5.1.0:
